@@ -1,0 +1,120 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 40.609 s <<< FAILURE! - in TestSuite
+searchProductAndCheckAvailability(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 2.365 s  <<< FAILURE!
+java.lang.AssertionError: 
+price is not correct expected [$$1,202.00] but found [$1,202.00
+]
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.searchProductAndCheckAvailability(HomePagetestscripts.java:69)
+
+searchProductAndCheckAvailability(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 2.479 s  <<< FAILURE!
+java.lang.AssertionError: 
+price is not correct expected [$$123.20] but found [$123.20
+]
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.searchProductAndCheckAvailability(HomePagetestscripts.java:69)
+
+searchProductAndCheckAvailability(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 0.225 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.searchProductAndCheckAvailability(HomePagetestscripts.java:57)
+
+validateGrandTotal(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 7.038 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='input-group btn-block']//input[@class='form-control'][1])[dummytext]"}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51190a2e48b83499858d34c477f45971
+*** Element info: {Using=xpath, value=(//div[@class='input-group btn-block']//input[@class='form-control'][1])[dummytext]}
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.validateGrandTotal(HomePagetestscripts.java:78)
+
+validateGrandTotal(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 7.301 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='input-group btn-block']//input[@class='form-control'][1])[dummytext]"}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51190a2e48b83499858d34c477f45971
+*** Element info: {Using=xpath, value=(//div[@class='input-group btn-block']//input[@class='form-control'][1])[dummytext]}
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.validateGrandTotal(HomePagetestscripts.java:78)
+
+validateGrandTotal(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 3.047 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=(//div[@class='input-group btn-block']//input[@class='form-control'][1])[dummytext]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.validateGrandTotal(HomePagetestscripts.java:78)
+
+checkGrandTotal(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 0.053 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51190a2e48b83499858d34c477f45971
+*** Element info: {Using=xpath, value=(//td[@class='text-right'])[26]}
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.checkGrandTotal(HomePagetestscripts.java:86)
+
+validateGrandTotalAfterRemovingItem(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 0.044 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51190a2e48b83499858d34c477f45971
+*** Element info: {Using=xpath, value=//i[@class='fa fa-times-circle']}
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.validateGrandTotalAfterRemovingItem(HomePagetestscripts.java:92)
+
+validateerrormessage(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 0.064 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51190a2e48b83499858d34c477f45971
+*** Element info: {Using=class name, value=form-control}
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.validateerrormessage(HomePagetestscripts.java:100)
+
+validateerrormessage(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 0.06 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51190a2e48b83499858d34c477f45971
+*** Element info: {Using=class name, value=form-control}
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.validateerrormessage(HomePagetestscripts.java:100)
+
+validateerrormessage(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts)  Time elapsed: 0.028 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-038', ip: '55.55.52.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51190a2e48b83499858d34c477f45971
+*** Element info: {Using=class name, value=form-control}
+	at com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts.validateerrormessage(HomePagetestscripts.java:100)
+

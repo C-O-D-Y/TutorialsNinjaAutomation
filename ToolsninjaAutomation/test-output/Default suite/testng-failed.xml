@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Default Suite]">
+  <test thread-count="2" parallel="tests" name="Test validate chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.atmecs.com/"/>
+    <classes>
+      <class name="com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts">
+        <methods>
+          <include name="clickContactUs"/>
+          <include name="validatefooterForInsights" invocation-numbers="28"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearResource"/>
+          <include name="homePageRedirection"/>
+        </methods>
+      </class> <!-- com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts -->
+    </classes>
+  </test> <!-- Test validate chrome(failed) -->
+  <test thread-count="2" parallel="tests" name="Test validate firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://www.atmecs.com/"/>
+    <classes>
+      <class name="com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts">
+        <methods>
+          <include name="clickHeaderPartners"/>
+          <include name="clickHeaderAboutUs"/>
+          <include name="clickHeaderCareers"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearResource"/>
+          <include name="homePageRedirection"/>
+        </methods>
+      </class> <!-- com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts -->
+    </classes>
+  </test> <!-- Test validate firefox(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

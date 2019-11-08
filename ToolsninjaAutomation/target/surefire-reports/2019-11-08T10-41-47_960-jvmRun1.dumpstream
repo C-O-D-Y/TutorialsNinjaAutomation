@@ -1,0 +1,57 @@
+# Created at 2019-11-08T10:42:00.126
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+
+# Created at 2019-11-08T10:42:04.325
+Unexpected IOException: 8,1,com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts,intitailizeBrowser(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=78.0.3904.87)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x0038A903+1550595]\000A\0009Ordinal0 [0x0030A701+1025793]\000A\0009Ordinal0 [0x0028C58E+509326]\000A\0009Ordinal0 [0x002862C2+484034]\000A\0009Ordinal0 [0x0028699B+485787]\000A\0009Ordinal0 [0x00287B05+490245]\000A\0009Ordinal0 [0x00283A85+473733]\000A\0009Ordinal0 [0x0028D330+512816]\000A\0009Ordinal0 [0x0023B649+177737]\000A\0009Ordinal0 [0x0023A8ED+174317]\000A\0009Ordinal0 [0x00238CDB+167131]\000A\0009Ordinal0 [0x0022144A+70730]\000A\0009Ordinal0 [0x002224D0+74960]\000A\0009Ordinal0 [0x00222469+74857]\000A\0009Ordinal0 [0x003242C7+1131207]\000A\0009GetHandleVerifier [0x004270FD+523789]\000A\0009GetHandleVerifier [0x00426E90+523168]\000A\0009GetHandleVerifier [0x0042E1E7+552695]\000A\0009GetHandleVerifier [0x004278FA+525834]\000A\0009Ordinal0 [0x0031B7FC+1095676]\000A\0009Ordinal0 [0x0032633B+1139515]\000A\0009Ordinal0 [0x003264A3+1139875]\000A\0009Ordinal0 [0x00325425+1135653]\000A\0009BaseThreadInitThunk [0x760B60C9+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77297A94+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77297A64+180]\000A,null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=78.0.3904.87)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x0038A903+1550595]\000A\0009Ordinal0 [0x0030A701+1025793]\000A\0009Ordinal0 [0x0028C58E+509326]\000A\0009Ordinal0 [0x002862C2+484034]\000A\0009Ordinal0 [0x0028699B+485787]\000A\0009Ordinal0 [0x00287B05+490245]\000A\0009Ordinal0 [0x00283A85+473733]\000A\0009Ordinal0 [0x0028D330+512816]\000A\0009Ordinal0 [0x0023B649+177737]\000A\0009Ordinal0 [0x0023A8ED+174317]\000A\0009Ordinal0 [0x00238CDB+167131]\000A\0009Ordinal0 [0x0022144A+70730]\000A\0009Ordinal0 [0x002224D0+74960]\000A\0009Ordinal0 [0x00222469+74857]\000A\0009Ordinal0 [0x003242C7+1131207]\000A\0009GetHandleVerifier [0x004270FD+523789]\000A\0009GetHandleVerifier [0x00426E90+523168]\000A\0009GetHandleVerifier [0x0042E1E7+552695]\000A\0009GetHandleVerifier [0x004278FA+525834]\000A\0009Ordinal0 [0x0031B7FC+1095676]\000A\0009Ordinal0 [0x0032633B+1139515]\000A\0009Ordinal0 [0x003264A3+1139875]\000A\0009Ordinal0 [0x00325425+1135653]\000A\0009BaseThreadInitThunk [0x760B60C9+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77297A94+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77297A64+180]\000A,HomePagetestscripts>TestBase.intitailizeBrowser:64 \00BB SessionNotCreated session...,org.openqa.selenium.SessionNotCreatedException: \000Asession not created\000Afrom chrome not reachable\000A  (Session info: chrome=78.0.3904.87)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x0038A903+1550595]\000A\0009Ordinal0 [0x0030A701+1025793]\000A\0009Ordinal0 [0x0028C58E+509326]\000A\0009Ordinal0 [0x002862C2+484034]\000A\0009Ordinal0 [0x0028699B+485787]\000A\0009Ordinal0 [0x00287B05+490245]\000A\0009Ordinal0 [0x00283A85+473733]\000A\0009Ordinal0 [0x0028D330+512816]\000A\0009Ordinal0 [0x0023B649+177737]\000A\0009Ordinal0 [0x0023A8ED+174317]\000A\0009Ordinal0 [0x00238CDB+167131]\000A\0009Ordinal0 [0x0022144A+70730]\000A\0009Ordinal0 [0x002224D0+74960]\000A\0009Ordinal0 [0x00222469+74857]\000A\0009Ordinal0 [0x003242C7+1131207]\000A\0009GetHandleVerifier [0x004270FD+523789]\000A\0009GetHandleVerifier [0x00426E90+523168]\000A\0009GetHandleVerifier [0x0042E1E7+552695]\000A\0009GetHandleVerifier [0x004278FA+525834]\000A\0009Ordinal0 [0x0031B7FC+1095676]\000A\0009Ordinal0 [0x0032633B+1139515]\000A\0009Ordinal0 [0x003264A3+1139875]\000A\0009Ordinal0 [0x00325425+1135653]\000A\0009BaseThreadInitThunk [0x760B60C9+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77297A94+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77297A64+180]\000A\000A
+
+
+# Created at 2019-11-08T10:42:04.327
+Unexpected IOException: 9,1,com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts,getUrl(com.atmecs.ToolsninjaAutomation.testScripts.HomePagetestscripts),null,null,null
+
+
+# Created at 2019-11-08T10:42:04.413
+Unexpected IOException with stream: 11-08-2019 10:42:04 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2019-11-08T10:42:04.414
+Unexpected IOException with stream: 0 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2019-11-08T10:42:04.416
+Unexpected IOException with stream: 11-08-2019 10:42:04 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+
+
+# Created at 2019-11-08T10:42:04.417
+Unexpected IOException with stream: 6 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+
+
+# Created at 2019-11-08T10:42:04.421
+Unexpected IOException with stream: 11-08-2019 10:42:04 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+
+
+# Created at 2019-11-08T10:42:04.423
+Unexpected IOException with stream: 9 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+
+
+# Created at 2019-11-08T10:42:04.425
+Unexpected IOException with stream: 11-08-2019 10:42:04 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+
+
+# Created at 2019-11-08T10:42:04.426
+Unexpected IOException with stream: 14 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+
+
+# Created at 2019-11-08T10:42:04.427
+Unexpected IOException with stream: 11-08-2019 10:42:04 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+
+
+# Created at 2019-11-08T10:42:04.428
+Unexpected IOException with stream: 16 [main] DEBUG freemarker.cache  - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+
+
