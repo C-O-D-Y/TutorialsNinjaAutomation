@@ -81,7 +81,7 @@ public class HomePage {
 	 * @param message
 	 */
 	public void isPriceCorrect(String price, String exTax) {
-
+		WebUtility.clickElement("css;//a[text()='iPhone']");
 		String pricing = WebUtility.getText(Locators.getLocators("loc.text.productPrice"));
 		System.out.println(pricing + "and" + price);
 		Assert.assertEquals(pricing.replace("$", ""), "" + price, "price is not correct");

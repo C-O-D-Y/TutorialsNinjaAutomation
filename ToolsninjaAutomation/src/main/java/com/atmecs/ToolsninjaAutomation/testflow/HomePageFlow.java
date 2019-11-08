@@ -39,7 +39,7 @@ public class HomePageFlow {
 	 * @throws InterruptedException
 	 */
 	public void AddProduct() throws InterruptedException {
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 		WebUtility.scrollBySpacebar();
 		WebUtility.clickElement(Locators.getLocators("loc.btn.addToCart"));
 	}

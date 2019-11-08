@@ -255,3 +255,13 @@
 2019-11-08 14:38:55,148  INFO [main] LogReport:40 - Starting the homepage testing
 2019-11-08 14:38:57,943  INFO [main] LogReport:40 - product name is correct
 2019-11-08 14:38:59,415  INFO [main] LogReport:40 - product name is correct
+2019-11-08 14:59:58,109  INFO [main] LogReport:40 - Starting Redirection validation
+2019-11-08 14:59:58,181  INFO [main] LogReport:40 - Redirection is on the correct page
+2019-11-08 14:59:58,182  INFO [main] LogReport:40 - Starting the homepage testing
+2019-11-08 15:00:17,425  INFO [main] LogReport:40 - product name is correct
+2019-11-08 15:00:39,116  INFO [main] LogReport:40 - product name is correct
+2019-11-08 15:01:11,304  INFO [main] LogReport:40 - Starting Redirection validation
+2019-11-08 15:01:11,358  INFO [main] LogReport:40 - Redirection is on the correct page
+2019-11-08 15:01:11,358  INFO [main] LogReport:40 - Starting the homepage testing
+2019-11-08 15:01:29,771  INFO [main] LogReport:40 - product name is correct
+2019-11-08 15:01:47,936  INFO [main] LogReport:40 - product name is correct
